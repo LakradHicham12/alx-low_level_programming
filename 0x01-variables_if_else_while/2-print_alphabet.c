@@ -12,7 +12,7 @@ int main(void)
 
 	while (n <= 122)
 	{
-		pitchar(n);
+		putchar(n);
 		n++;
 	}
 	putchar('\n');
