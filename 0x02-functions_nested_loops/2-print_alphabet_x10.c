@@ -1,18 +1,12 @@
-#include"main.h"
+#include "main.h"
 /**
- * main - check the code.
- *
- * Return: Always 0.
+* main - check the code.
+*
+* Return: Always 0.
 */
-
-void print_alphabet_x10(void)
+int main(void)
 {
-	int line, ch;
-
-	for (line = 0; line <= 9; line++)
-	{
-		for (ch = 'a'; ch <= 'z'; ch++)
-			_putchar(ch);
-		_putchar('\n');
-	}
+	print_alphabet_x10();
+	return (0);
 }
+
