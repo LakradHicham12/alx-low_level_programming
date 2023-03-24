@@ -1,7 +1,6 @@
 # ifndef MAIN_H
 # définir  MAIN_H
 
-
 int  _putchar ( char c);
 int  _isupper ( int c);
 entier  _isdigit ( entier c);
@@ -15,8 +14,4 @@ void  print_square ( taille int );
 void  print_triangle ( taille int );
 void  print_number ( int n);
 
-
 # endif 
-/* 
-Bwave TIC
-*/
