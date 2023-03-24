@@ -1,12 +1,12 @@
-# inclure  < stdio.h >
-# inclure  " main.h "
-/* *
-* mul - multiplie deux entiers
-* @a : premier entier
-* @b : deuxième entier
-* Retour : addition de a et b
+#include <stdio.h>
+#include "main.h"
+/**
+* mul - multiplies two integers
+* @a: first integer
+* @b: second integer
+* Return: addition of a and b
 */
-int  mul ( int a, int b)
+int mul(int a, int b)
 {
-	retour (a * b);
+	return (a * b);
 }

@@ -1,17 +1,17 @@
-# inclure  " main.h "
+#include "main.h"
 
-/* *
-* _isupper - lettres majuscules
-* @c : caractère à vérifier
-*
-* Retour : 0 ou 1
+/**
+ * _isupper - uppercase letters
+ * @c: character to check
+ *
+ * Return: 0 or 1
  */
-int  _isupper ( int c)
+int _isupper(int c)
 
 {
-	si (c >= ' A ' && c <= ' Z ' )
-		retour ( 1 );
-	autre
-		retour ( 0 );
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 
 }
