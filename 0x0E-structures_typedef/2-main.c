@@ -16,3 +16,7 @@ int main(void)
     print_dog(&my_dog);
     return (0);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 417dd08a00ce45584283c49b612e4bdf00d25f63
