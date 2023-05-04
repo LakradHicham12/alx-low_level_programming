@@ -2,10 +2,9 @@
 
 /**
  * print_binary - prints a number as binary string
- * @n: unsigned long int input.
- * @index: index of the bit.
+ * @n: the number to print
  *
- * Return: value of the bit.
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
