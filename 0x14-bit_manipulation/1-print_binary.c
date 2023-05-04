@@ -8,7 +8,7 @@
  *
  * Return: value of the bit.
  */
-int get_bit(unsigned long int n)
+int print_binary(unsigned long int n)
 {
 	int bit = sizeof(n) * 8, printed = 0;
 	while (bit)
